@@ -183,21 +183,21 @@ nav a{
 .eventpage{
   margin-top: 15px;
   width: 100%;
-  min-height: 70vh;
+  min-height: 50vh;
   background-image: url(../Images/Eventpage.png);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  justify-content: start;
+  align-items: center;
   flex-direction: column;
 }
 
 .eventpage-contents{
-  width: 70%;
-  height: 100%;
-  margin: 0 10%;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -344,23 +344,23 @@ nav a{
 .sponsorpage{
   margin-top: 15px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   background-color: #0490CC;
   display: flex;
   justify-content: start;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
 }
 
 .sponsorpage-contents{
-  width: 90%;
-  height: 100%;
-  margin: 0 10%;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  padding: 50px -0;
+  padding: 50px 0;
   color: #FFFFFF;
 }
 
@@ -437,12 +437,12 @@ nav a{
 
 .mappage{
   width: 100%;
-  min-height: 130vh;
+  min-height: 100vh;
   background-color: #FFFFFF;
 }
 
 .map-contents{
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -485,7 +485,7 @@ nav a{
 .registerpage .register-contents input{
   text-align: center;
   margin: 5px;
-  width: 500px;
+  width: 600px;
   height: 50px;
   font-size: 15px;
 }
