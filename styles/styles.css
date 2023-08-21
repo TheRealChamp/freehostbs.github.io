@@ -100,7 +100,7 @@ nav a{
   font-size: 80px;
   color: #898484;
   font-weight: 100;
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .homepage-contents .para-one{
@@ -195,9 +195,9 @@ nav a{
 }
 
 .eventpage-contents{
-  width: 60%;
+  width: 70%;
   height: 100%;
-  margin: 0 15%;
+  margin: 0 10%;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -353,9 +353,9 @@ nav a{
 }
 
 .sponsorpage-contents{
-  width: 80%;
+  width: 90%;
   height: 100%;
-  margin: 0 20%;
+  margin: 0 10%;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -485,18 +485,13 @@ nav a{
 .registerpage .register-contents input{
   text-align: center;
   margin: 5px;
-  padding: 10px 250px;
+  width: 500px;
+  height: 50px;
+  font-size: 15px;
 }
 
-.registerpage .register-contents button{
-  margin-top: 15px;
-  padding: 5px 280px;
+.registerpage .register-contents{
   background-color: transparent;
-  border: 1px solid #FFFFFF;
-  font-size: 15px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-weight: 800;
 }
 
 footer{
