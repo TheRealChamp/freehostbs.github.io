@@ -195,7 +195,7 @@ nav a{
 }
 
 .eventpage-contents{
-  max-width: 50%;
+  max-width: 80%;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -353,7 +353,7 @@ nav a{
 }
 
 .sponsorpage-contents{
-  max-width: 50%;
+  max-width: 80%;
   width: 100%;
   margin: 0 auto;
   display: flex;
