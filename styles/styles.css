@@ -105,16 +105,16 @@ nav a{
 
 .homepage-contents .para-one{
   font-size: 25px;
-  margin-top: 5px;
 }
 
 .homepage-contents .para-two{
   font-size: 25px;
+  margin: 5px 0;
 }
 
 .aboutandauthourpage{
   width: 100%;
-  min-height: 130vh;
+  min-height: 110vh;
   background-image: url(../Images/AboutPage.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -195,8 +195,7 @@ nav a{
 }
 
 .eventpage-contents{
-  max-width: 80%;
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -234,25 +233,25 @@ nav a{
 
 .eventpage-contents .box ul .eve-one{
   background-color: #2B97C6;
-  width: 500px;
+  width: 400px;
   height: 50px;
 }
 
 .eventpage-contents .box ul .eve-two{
   background-color: #2B97C6;
-  width: 500px;
+  width: 400px;
   height: 50px;
 }
 
 .eventpage-contents .box ul .eve-three{
   background-color: #2B97C6;
-  width: 500px;
+  width: 400px;
   height: 50px;
 }
 
 .eventpage-contents .box ul .eve-four{
   background-color: #2B97C6;
-  width: 500px;
+  width: 400px;
   height: 50px;
 }
 
@@ -268,9 +267,7 @@ nav a{
 }
 
 .eventpagetwo-contents{
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
+  max-width: 100%;
   color: #FFFFFF;
   display: flex;
   justify-content: center;
@@ -348,13 +345,12 @@ nav a{
   background-color: #0490CC;
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
 }
 
 .sponsorpage-contents{
-  max-width: 80%;
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: start;
@@ -442,7 +438,7 @@ nav a{
 }
 
 .map-contents{
-  width: 50%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
