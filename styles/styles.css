@@ -25,7 +25,7 @@ header{
   z-index: 10;
   width: 50px;
   height: 50px;
-  background-color: #E1B40C;
+  background: linear-gradient(#078348, #2B8FC8);
   border-radius: 50%;
   bottom: 50px;
   right: 50px;
@@ -34,6 +34,7 @@ header{
   align-items: center;
   font-size: 30px;
   font-weight: 800;
+  box-shadow: 0px 0px 15px 5px #565656;
 }
 
 .bottom-button .whole-button{
@@ -48,6 +49,7 @@ header{
 
 .bottom-button a{
   text-decoration: none;
+  color: #FFB807; 
 }
 
 nav{
@@ -105,11 +107,13 @@ nav a{
 
 .homepage-contents .para-one{
   font-size: 25px;
+  width: 60%;
 }
 
 .homepage-contents .para-two{
   font-size: 25px;
   margin: 5px 0;
+  width: 60%
 }
 
 .aboutandauthourpage{
@@ -143,6 +147,8 @@ nav a{
   font-size: 25px;
   font-weight: 100;
   padding: 20px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .aboutandauthourpage-contents .authors .main-heading{
@@ -189,13 +195,13 @@ nav a{
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .eventpage-contents{
-  max-width: 100%;
+  max-width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -208,13 +214,14 @@ nav a{
 .eventpage-contents .main-heading{
   font-size: 45px;
   font-weight: 100;
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .eventpage-contents .sub-heading{
   font-size: 25px;
   font-weight: 100;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .eventpage-contents .box{
@@ -233,25 +240,25 @@ nav a{
 
 .eventpage-contents .box ul .eve-one{
   background-color: #2B97C6;
-  width: 400px;
+  width: 450px;
   height: 50px;
 }
 
 .eventpage-contents .box ul .eve-two{
   background-color: #2B97C6;
-  width: 400px;
+  width: 450px;
   height: 50px;
 }
 
 .eventpage-contents .box ul .eve-three{
   background-color: #2B97C6;
-  width: 400px;
+  width: 450px;
   height: 50px;
 }
 
 .eventpage-contents .box ul .eve-four{
   background-color: #2B97C6;
-  width: 400px;
+  width: 450px;
   height: 50px;
 }
 
@@ -394,6 +401,7 @@ nav a{
 
 .sponsorpage-contents .sponsor-box .committees p{
   font-size: 50px;
+  width: 100%;
 }
 
 
@@ -420,6 +428,7 @@ nav a{
 .sponsorpage-contents .sponsor-para{
   width: 100%;
   font-size: 50px;
+  line-height: 0.9;
 }
 
 .sponsorpage-contents .sponsor-para .title{
@@ -433,7 +442,7 @@ nav a{
 
 .mappage{
   width: 100%;
-  min-height: 100vh;
+  max-height: 150vh;
   background-color: #FFFFFF;
 }
 
@@ -451,7 +460,7 @@ nav a{
 .registerpage{
   margin-top: 15px;
   width: 100%;
-  min-height: 50vh;
+  min-height: 40vh;
   background-image: url(../Images/register\ bg.png);
   background-position: top;
   background-repeat: no-repeat;
@@ -460,10 +469,11 @@ nav a{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px 0;
 }
 
 .registerpage .register-contents{
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -474,7 +484,7 @@ nav a{
 .registerpage .register-contents p{
   font-size: 50px;
   color: #FFFFFF;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: 800;
 }
 
@@ -508,4 +518,72 @@ footer  .footer-contents{
 
 footer  .footer-contents p{
   font-size: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+footer  .footer-contents .social-logo-img{
+  width: 10%;
+}
+
+footer  .footer-contents .footer-logo-img{
+  width: 20%;
+}
+
+@media (min-width: 500px) and (max-width: 1250px){
+  .eventpage-contents .box{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .eventpage-contents .box ul .eve-one{
+    background-color: #2B97C6;
+    width: 550px;
+    height: 50px;
+  }
+  
+  .eventpage-contents .box ul .eve-two{
+    background-color: #2B97C6;
+    width: 550px;
+    height: 50px;
+  }
+  
+  .eventpage-contents .box ul .eve-three{
+    background-color: #2B97C6;
+    width: 550px;
+    height: 50px;
+  }
+  
+  .eventpage-contents .box ul .eve-four{
+    background-color: #2B97C6;
+    width: 550px;
+    height: 50px;
+  }
+
+  .eventpagetwo-contents .topsection{
+    flex-wrap: wrap;
+  }
+
+  .eventpagetwo-contents .topleft{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1700px){
+  .eventpage-contents{
+  max-width: 60%;
+}
+}
+
+@media (min-width: 1800px) and (max-width: 2559px){
+  .eventpage-contents{
+  max-width: 40%;
+}
+}
+
+@media (min-width: 2560px) and (max-width: 3000px){
+  .eventpage-contents{
+  max-width: 40%;
+}
 }
